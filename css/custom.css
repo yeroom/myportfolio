@@ -54,15 +54,6 @@ h1{
   }
 }
 
-@keyframes yeashi{
-  0% {
-    transform: translateY(500px);
-  }
-  100%{
-    transform: translateY(0px);
-  }
-}
-
 .yeashi2{
   animation-name: yeashi2;
   animation-duration: 5s;
@@ -240,10 +231,7 @@ h1{
   font-size: 14px !important;
   font-weight: normal;
   border-radius: 5px;
-  
 }
-
-
 
 
 .col-md-offset-2 {
