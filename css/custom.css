@@ -22,7 +22,7 @@ h1{
   clear: both;
 }
 
-.Montserrat, h4, .modal-content h2{
+.Montserrat, h4, .modal-content h2, .footer{
   font-family: 'Montserrat',sans-serif;
   letter-spacing: 2px;
   font-weight: 400;
@@ -94,10 +94,7 @@ h1{
   box-shadow: 2px 20px 10px #ccc;
 }
 
-
-/* .timeline-event-copy h3{
-  font-weight: 300;
-} */
+/*-------skill------- */
 
 
 
@@ -142,9 +139,9 @@ h1{
   opacity: 1;
 }
 
-.timeline-event:nth-child(3){
+/* .timeline-event:nth-child(3){
   height: 300px;
-}
+} */
 
 /* skill */
 #skill{margin-top: 70px ;}
@@ -156,7 +153,7 @@ h1{
   height: 20px;
   background-color: #fff;
   -webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
-  margin: 0 0 30px;
+  margin: 0 0 10px;
   display: none;
   border-radius: 3px;
 }
@@ -255,4 +252,6 @@ h1{
 .col-md-8 {
   width: 100%;
 }
+
+.copy{font-size: 12px; text-align: center;}
 
