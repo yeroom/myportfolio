@@ -107,17 +107,17 @@ $(document).ready(function () {
     // $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
 
     //demo 01
-    $("#demo01").animatedModal({
-        modalTarget: 'animatedModal-1'
-    });
-    // //demo 02
-    // $("#demo02").animatedModal({
-    //     modalTarget: 'animatedModal-2'
+    // $("#demo01").animatedModal({
+    //     modalTarget: 'animatedModal-1'
     // });
-    //demo 03
-    $("#demo03").animatedModal({
-        modalTarget: 'animatedModal-3'
+    //demo 02
+    $("#demo02").animatedModal({
+        modalTarget: 'animatedModal-2'
     });
+    //demo 03
+    // $("#demo03").animatedModal({
+    //     modalTarget: 'animatedModal-3'
+    // });
     $("#demo04").animatedModal({
         modalTarget: 'animatedModal-4'
     });
