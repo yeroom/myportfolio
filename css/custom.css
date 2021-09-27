@@ -25,7 +25,7 @@ h1{
 .Montserrat, h4, .modal-content h2, .footer{
   font-family: 'Montserrat',sans-serif;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: bold;
 }
 .nav_num{
   color: #5d7ba8;
@@ -57,11 +57,6 @@ h1{
 .yeashi2{
   animation-name: yeashi2;
   animation-duration: 5s;
-}
-
-.img-responsive{
-  animation-name: yeashi;
-  animation-duration: 2s;
 }
 
 .yeashi2 p{
@@ -212,9 +207,11 @@ h1{
 
 
 .goSite{
+  font-family: 'Montserrat',sans-serif;
   display: block;
   width: 150px;
   height: 50px;
+  font-weight: bold;
   color: #fff;
   background-color: #5d7ba8;
   text-align: center;
@@ -241,5 +238,23 @@ h1{
   width: 100%;
 }
 
-.copy{font-size: 12px; text-align: center;}
+.footer .container{
+  position: relative;
+}
+.thank{
+  position: absolute;
+  top:0; right: 0;
+}
+.copy{
+  margin-top: 30px;
+  font-size: 12px; 
+  text-align: center;
+}
+
+@media (min-width: 1200px){
+  #projects .container {
+    width: 1400px !important;
+  }
+}
+
 

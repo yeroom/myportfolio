@@ -545,8 +545,8 @@ a.active {
     height: 100%;
     width: 100%;
     background-color: #f5f793;
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
+    /* -webkit-transform: translateY(100%);
+    transform: translateY(100%); */
     opacity: 0;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -596,8 +596,8 @@ a.active {
 
 .portfolio_item:hover .portfolio_item_hover {
     opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+    /* -webkit-transform: translateX(0);
+    transform: translateX(0); */
 }
 
 .portfolio_item:hover .item_info em,
@@ -675,7 +675,7 @@ a.active {
 ==================================================*/
 
 #contact {
-    padding: 100px 0;
+    padding: 80px 0;
     background: #5d7ba8;
     color: #fff;
 }

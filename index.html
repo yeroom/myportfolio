@@ -287,7 +287,7 @@
                             
                             <!-- single work -->
                             <div class="col-md-6 col-sm-6 logo graphics">
-                                <a id="demo04" href="#animatedModal-4" class="portfolio_item"> <img src="img/portfolio/04_1.jpg" alt="image" class="img-responsive" />
+                                <a id="demo04" href="#animatedModal-4" class="portfolio_item"> <img src="img/portfolio/04.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
                                             <div class="item_info"> <span>BI/CI 브랜드디자인 & 리플렛 제작<br>일월의숲</span> <em>View detail</em> </div>
@@ -406,20 +406,17 @@
             <div class="col-md-12">
                 <h4 class="nav_num">04</h4>
                 <h1 class="size-50">Contact  Me</h1>
-                <p>매일 더 발전하는 웹퍼블리셔가 되기위해 노력하겠습니다.</p>
                 <div class="h-50"></div>
             </div>
-            <div class="col-md-4" data-aos="fade-up">
-
+            <div class="col-md-4">
                 <h3>Phone Number</h3>
                 <p>010 9964 3855</p>
                 <h3>Email</h3>
                 <p>pek3855@naver.com</p>
-              
-
             </div>
-           
+            <p class="thank">Thank you for reading</p>
         </div>
+        
         <p class="copy">ⓒ2021 SONGYEJI portfolio<br>본 사이트는 비상업적 용도로 제작된 사이트입니다.</p>
     </div> 
     <!-- ./contact -->
@@ -437,7 +434,6 @@
                         <h2>MEGABOX<br />반응형 페이지 제작</h2>
                         <div class="h-50"></div>
                         <a href="https://yeroom.github.io/project01/" target="blank" class="goSite">Go to Site</a>
-                       
                         <br />
                         <br /> <img src="img/portfolio/01_detail.jpg" alt="" class="img-responsive" />
                         <br />
@@ -464,7 +460,6 @@
                     <div class="col-md-8 col-md-offset-2">
                         <h2>일월의숲<br> 로고디자인 & 리플렛 디자인</h2>
                         <div class="h-50"></div>
-                    
                         <br />
                         <br /> <img src="img/portfolio/04_detail.png" alt="" class="img-responsive" />
                         <br />
@@ -487,12 +482,10 @@
                     <div class="col-md-8 col-md-offset-2">
                         <h2>Chals furniture<br />가구 브랜드 브로슈어 제작</h2>
                         <div class="h-50"></div>
-                        
                         <br />
                         <br /> <img src="img/portfolio/06_detail.jpg" alt="" class="img-responsive" />
                         <br />
                         <br />
-                        
                         <br />
                         <br /> </div>
                 </div>
@@ -559,7 +552,6 @@
                         <h2>Incheon Airport<br />사이트 리디자인</h2>
                         <div class="h-50"></div>
                         <a href="http://yeroom.dothome.co.kr/IncheonAirport/" target="blank" class="goSite">Go to Site</a>
-                       
                         <br />
                         <br /> <img src="img/portfolio/02_detail.jpg" alt="" class="img-responsive" />
                         <br />
@@ -587,118 +579,6 @@
 
     <!--  main script  -->
     <script src="js/custom.js"></script>
-
-    <!-- 팝업 -->
-    <!-- <script src="js/animatedModal.js"></script> -->
-
-   
-   <script>
-        // 스크롤시 숫자
-        var a = 0;
-      $(window).scroll(function() {
-      
-        var oTop = $('#counter').offset().top - window.innerHeight;
-        if (a == 0 && $(window).scrollTop() > oTop) {
-          $('.counter-value').each(function() {
-            var $this = $(this),
-              countTo = $this.attr('data-count');
-            $({
-              countNum: $this.text()
-            }).animate({
-                countNum: countTo
-              },
-              {
-                duration: 2000,
-                easing: 'swing',
-                step: function() {
-                  $this.text(Math.floor(this.countNum));
-                },
-                complete: function() {
-                  $this.text(this.countNum);
-                }
-              });
-          });
-          a = 1;
-        }
-      });
-
-    </script>
-
-    <script>
-            // 타이핑
-            var TxtRotate = function (el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
-        this.tick();
-        this.isDeleting = false;
-        };
-
-        TxtRotate.prototype.tick = function () {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
-
-        if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
-
-        this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-        var that = this;
-        var delta = 300 - Math.random() * 100;
-
-        if (this.isDeleting) { delta /= 2; }
-
-        if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-        }
-
-        setTimeout(function () {
-        that.tick();
-        }, delta);
-        };
-
-        window.onload = function () {
-        var elements = document.getElementsByClassName('txt-rotate');
-        for (var i = 0; i < elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-rotate');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-        new TxtRotate(elements[i], JSON.parse(toRotate), period);
-        }
-        }
-        // INJECT CSS
-        var css = document.createElement("style");
-        css.type = "text/css";
-        css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-        document.body.appendChild(css);
-        };
-</script>
-
-<script>
-    $(document).ready(function(){//시작
-        //스크롤 닿으면 show
-        $(window).scroll(function(){
-        var location = $(window).scrollTop(); //스크롤의 현재 위치
-        
-        if(location >= $("#experience").offset().top){
-          $(".graph").show();
-        }
-
-      });
-    });//끝
-</script>
-  
-
 </body>
 
 </html>
