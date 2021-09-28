@@ -243,18 +243,22 @@ h1{
 }
 .thank{
   position: absolute;
-  top:0; right: 0;
+  top:100px; right: 0;
+  font-size: 50px;
+  opacity: 0.3;
+  line-height: 1.5;
+  text-align: right;
 }
 .copy{
   margin-top: 30px;
   font-size: 12px; 
   text-align: center;
 }
-
+/* 
 @media (min-width: 1200px){
   #projects .container {
     width: 1400px !important;
   }
-}
+} */
 
 
