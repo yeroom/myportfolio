@@ -205,7 +205,9 @@ h1{
   100%{width: 70%;}
 }
 
-
+.modal-content .container{
+  width: 1500px;
+}
 .goSite{
   font-family: 'Montserrat',sans-serif;
   display: block;
@@ -228,6 +230,8 @@ h1{
   font-size: 14px !important;
   font-weight: normal;
   border-radius: 5px;
+  font-family: 'Montserrat',sans-serif;
+  
 }
 
 
