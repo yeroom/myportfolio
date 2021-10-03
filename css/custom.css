@@ -9,7 +9,7 @@
 h1{
   color: #fff;
   text-shadow: 0px 1px 3px #000;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-family: Roboto,Poppins,Helvetica,Arial,sans-serif;
   font-weight: 900;
   line-height: 1.4;
@@ -24,7 +24,6 @@ h1{
 .Montserrat, h4, .modal-content h2, .footer{
   font-family: 'Montserrat',sans-serif;
   letter-spacing: 2px;
-  font-weight: bold;
 }
 .nav_num{
   color: #5d7ba8;
@@ -67,7 +66,6 @@ h1{
   line-height: 1.5;
   letter-spacing: normal;
   font-size: 18px;
-  font-weight: 300;
 }
 .timeline-event-copy h4{
   letter-spacing: 4px;
