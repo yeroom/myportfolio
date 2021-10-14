@@ -218,20 +218,24 @@ h1{
   background-color: #5d7ba8;
   text-align: center;
   line-height: 50px;
+  transition: all 0.3s;
 }
-
+.goSite:hover{
+  line-height: 48px;
+  border: 1px solid #5d7ba8;
+  background-color: #fff;
+  color: #5d7ba8;
+}
 
 #demo02{
   background: url(../img/portfolio/10.jpg) no-repeat center / cover;
 }
-
 
 .item_info em{
   font-size: 14px !important;
   font-weight: normal;
   border-radius: 5px;
   font-family: 'Montserrat',sans-serif;
-  
 }
 
 
