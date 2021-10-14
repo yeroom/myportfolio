@@ -71,7 +71,10 @@ h1{
   letter-spacing: 4px;
 }
 
-#counter{margin-top: 40px;}
+#counter{
+  margin-top: 40px;
+  /* height: 200px; */
+}
 
 .img-responsive{
   box-shadow: 2px 20px 10px #ccc;
@@ -242,24 +245,11 @@ h1{
 .footer .container{
   position: relative;
 }
-.thank{
-  position: absolute;
-  top:100px; right: 0;
-  font-size: 50px;
-  opacity: 0.3;
-  line-height: 1.5;
-  text-align: right;
-}
 .copy{
   margin-top: 30px;
   font-size: 12px; 
   text-align: center;
 }
-/* 
-@media (min-width: 1200px){
-  #projects .container {
-    width: 1400px !important;
-  }
-} */
+
 
 

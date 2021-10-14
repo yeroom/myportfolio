@@ -124,15 +124,15 @@ $(document).ready(function () {
     $("#demo05").animatedModal({
         modalTarget: 'animatedModal-5'
     });
-    // $("#demo06").animatedModal({
-    //     modalTarget: 'animatedModal-6'
-    // });
+    $("#demo06").animatedModal({
+        modalTarget: 'animatedModal-6'
+    });
     // $("#demo07").animatedModal({
     //     modalTarget: 'animatedModal-7'
     // });
-    $("#demo08").animatedModal({
-        modalTarget: 'animatedModal-8'
-    });
+    // $("#demo08").animatedModal({
+    //     modalTarget: 'animatedModal-8'
+    // });
     $("#demo09").animatedModal({
         modalTarget: 'animatedModal-9'
     });
